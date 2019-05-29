@@ -1,0 +1,40 @@
+/*function find(arr, value) {
+	for(var i = 0; i < arr.length; i++) {
+	}
+
+}
+	
+var arr = [25, 2, -4, true]; */
+
+*****************************
+
+	
+function checkSpam(str) {
+	
+	var lowerStr = str.toLowerCase();
+	
+	return !!(lowerStr.indexOf('viagra') >= 0 ||
+			  lowerStr.indexOf('xxx')) >= 0;
+	
+		}
+						   
+	alert( checkSpam('buy ViAgRA now') );
+	alert( checkSpam('free xxxxx') );
+	alert( checkSpam('InnOcEnt raBBit') );
+		*****************************
+
+var firstPosition = 0.10, secondPosition = 0.20;
+
+	var positionSum = firstPosition + secondPosition;
+
+	alert( positionSum.toFixed(2) + '$' );
+
+*****************************
+
+
+var i = 0;
+
+while (i < 3) {
+	alert('номер ' + i + '!');
+	i++
+}
